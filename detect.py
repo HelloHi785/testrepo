@@ -1,6 +1,6 @@
-from pymodbus.client.sync import ModbusTcpClient
+from pymodbus.client.sync import ModbusTcpClient12321
 #from pymodbus.client import ModbusTcpClient
-import time, sys, traceback
+import time, sys, tracebacksdfsdf
 import sqlite3
 
 # SQLite DB 설정
