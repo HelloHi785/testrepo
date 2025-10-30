@@ -4,7 +4,7 @@ import time, sys, traceback
 import sqlite3
 
 # SQLite DB 설정
-DB_NAME = '/home/sch/devlopment/server/dashboard/db.sqlite3'  # DB 경로 수정
+DB_NAME = '/home/sch/devlopment/server/dashboard/db.sqlite3'  #DB 경로 수정
 
 # 데이터 저장
 def save_to_db(plc_id_id, slave_id, slave_vendor, slave_product, slave_version, product_id, slave_temp, slave_status):
